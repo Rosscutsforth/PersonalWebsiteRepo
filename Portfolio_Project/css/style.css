@@ -1,0 +1,329 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/*All HTML Styling
+  */
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  padding-top:;
+  background-color: #010101;
+
+}
+
+footer{
+  margin: 3% auto;
+}
+
+
+.fa{
+  border-radius: 60%;
+  font-size: 50px;
+  height: 30px;
+  margin: auto 2%;
+  padding: 1% 1% 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  width: 25px;
+}
+
+.fa:hover{
+  opacity: .6;
+}
+
+.fa-twitter{
+  color: #3377EE;
+}
+
+#header{
+  padding: auto;
+  position: fixed;
+  margin: auto;
+  top: 0px;
+  transition: .3s;
+  z-index: 2;
+}
+
+.sticky{
+  background-color:;
+  box-shadow: 5px 0px 5px black;
+  opacity: .9;
+  position: fixed;
+  top: 0;
+  transition: .5s;
+  width: 100%;
+}
+
+.headerFlex{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#headerFlexItem{
+  width: 50%;
+}
+
+.mainHeading{
+  border-right-style: solid;
+  color: white;
+  height: auto;
+  font-family: Lato;
+  font-weight: lighter;
+  height: auto;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+nav{
+  align-self: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 1px 0px;
+  padding: 1px;
+}
+
+.nav_flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_stuff{
+  color: #551122;
+  font-family: Lato;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin: auto;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.nav_stuff:hover{
+  color: white;
+  opacity: .6;
+}
+
+
+
+/* INDEX Styling */
+
+.ocean{
+  background-clip: padding-box;
+  background-image: url("../images/Atlantic_Ocean.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+.website_header{
+  color: #000000;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: lighter;
+  height: 45%;
+  letter-spacing: 9px;
+  margin: auto;
+  padding-top: 275px;
+  text-align: center;
+  text-decoration: overline;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.columnFlexProjects{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.rowFlex{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.rowFlexItem{
+  text-align: center;
+  width: 48%;
+}
+
+.rowFlexItem p{
+  color: white;
+}
+
+/* .projects_flex{
+  align-content: space-between;
+  align-items: baseline;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 50px 10%;
+  padding: auto;
+}
+
+.project_objects{
+  background-color:;
+  color: white;
+  font-family: monospace;
+  margin: 0% 1%;
+  padding: 0% 1%;
+  width: 25%;
+}
+
+.project_titles{
+  align-self: center;
+  background-color: white;
+  border-radius: 3%;
+  color: black;
+  height: auto;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#twitterButton{
+  display: none;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4%;
+}
+
+#twitterNetwork{
+  display:;
+}
+
+#nampButton{
+  display: none;
+  text-decoration: none;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 4%;
+}
+
+#nampAbout{
+  display:;
+} */
+
+/* Hover action + form creation for Twitter Network flex object  */
+.project_objects:hover{
+  background-color: white;
+  border-radius: 5%;
+  color: black;
+}
+
+
+
+ /* CSS that is exclusive to about_me.html
+  */
+
+.education_heading{
+  border-bottom: solid;
+  border-top: solid;
+  border-color: lightblue;
+  color: white;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 9px;
+  margin: 60px 0px 20px 0px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.land{
+  background-clip: padding-box;
+  background-image: url("../images/Japan_Sun.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.about_flex{
+  align-content: space-between;
+  align-items: baseline;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 50px 10%;
+  padding: auto;
+}
+
+.about_objects{
+  background-color:;
+  color: white;
+  font-family: monospace;
+  margin: 0% 1%;
+  padding: 0% 1%;
+  width: 33%;
+}
+
+.website_header_about{
+  color: #000000;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: lighter;
+  height: 45%;
+  letter-spacing: 9px;
+  margin: auto;
+  padding-top: 275px;
+  text-align: center;
+  text-decoration: overline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+  width: 90%;
+}
+
+.about_objects:hover{
+  text-shadow: 0px 0px 10px white;
+}
+
+
+
+/* CSS for size limits... query
+ */
+
+ @media screen and (max-width: 1120px) {
+   .mainHeading{
+     letter-spacing: 15px;
+   }
+ }
+
+ @media screen and (max-width: 1000px) {
+   .mainHeading{
+     letter-spacing: 10px;
+   }
+ }
+
+ @media screen and (max-width: 700px) {
+   .mainHeading{
+     letter-spacing: 7px;
+   }
+ }
+
+ @media screen and (max-width: 500px) {
+   .mainHeading{
+     letter-spacing: 5px;
+   }
+ }
