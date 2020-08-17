@@ -12,7 +12,7 @@ html{
 
 body{
   padding-top:;
-  background-color: #010101;
+  background-color: #1F1F1F;
 
 }
 
@@ -64,6 +64,7 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 15px 0px;
   width: 100%;
 }
 
@@ -72,15 +73,23 @@ footer{
 }
 
 .mainHeading{
-  border-right-style: solid;
+  /* border-right-style: solid; */
   color: white;
   height: auto;
   font-family: Lato;
+  font-size: 26px;
   font-weight: lighter;
   height: auto;
   letter-spacing: 20px;
+  text-decoration: none;
   text-transform: uppercase;
+  transition: .3s;
   width: 100%;
+}
+
+.mainHeading:hover{
+  text-shadow: 0px 0px 5px white;
+  opacity: .6;
 }
 
 nav{
@@ -98,7 +107,7 @@ nav{
 }
 
 .nav_stuff{
-  color: #551122;
+  color: #22AA55;
   font-family: Lato;
   font-weight: lighter;
   letter-spacing: 2px;
@@ -106,17 +115,48 @@ nav{
   padding: 5px 5px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: .3s;
   width: auto;
 }
 
 .nav_stuff:hover{
-  color: white;
+  text-shadow: 0px 0px 5px black;
   opacity: .6;
 }
 
 
 
 /* INDEX Styling */
+
+.selfPortrait{
+  background-clip: padding-box;
+  background-image: url("../images/selfPortrait.jpg");
+  background-position: 0% 40%;
+  background-repeat: no-repeat;
+  background-size: 57% 100%;
+  height: auto;
+  width: 100%;
+}
+
+.portraitHeader{
+  color: white;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: lighter;
+  height: 45%;
+  left: 25%;
+  letter-spacing: 9px;
+  margin: auto;
+  padding-top: 275px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+}
+
+
+
+/* PROJECTS STYLING */
 
 .ocean{
   background-clip: padding-box;
@@ -154,6 +194,7 @@ nav{
   align-items: center;
   display: flex;
   flex-direction: row;
+  height: auto;
   justify-content: center;
   width: 100%;
 }
@@ -165,6 +206,32 @@ nav{
 
 .rowFlexItem p{
   color: white;
+}
+
+#adhereFlexBackground{
+  background-image: url("../images/adhereMainPage.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 615px;
+}
+
+#adhereFlexItemLeft{
+  display: none;
+}
+
+#adhereFlexItemLeft p{
+  color: black;
+  font-size: 25px;
+}
+
+#adhereFlexItemRight{
+  display: none;
+}
+
+#adhereFlexItemRight p{
+  color: black;
+  font-size: 25px;
 }
 
 /* .projects_flex{
@@ -251,7 +318,7 @@ nav{
 
 .land{
   background-clip: padding-box;
-  background-image: url("../images/Japan_Sun.jpg");
+  background-image: url("../images/Japan_Canal.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -299,6 +366,30 @@ nav{
   text-shadow: 0px 0px 10px white;
 }
 
+
+
+/* CSS EXCLUSIVE TO CONTACT */
+
+.contactSocialFlex{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
+
+.socialFlexItem{
+  background-color: white;
+  height: 200px;
+  margin: 10px;
+  width: 30%;
+}
+
+.contactMainHeading{
+  color: white;
+}
 
 
 /* CSS for size limits... query
